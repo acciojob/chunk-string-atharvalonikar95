@@ -1,11 +1,11 @@
 function stringChop(str, size) {
-  // your code here
+  // your code here 
 	let ans=[] 
 	let i=0
-	if (str.length==0 || size <= 0) {
+	if (!str|| size <= 0) {
 	    return [];
 	}
-	while(i<str.length){
+	while(i<str.length){  
 		let chunk=str.slice(i,i+size)
 		ans.push(chunk)
 		i+=size
