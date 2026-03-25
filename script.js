@@ -10,7 +10,7 @@ function stringChop(str, size) {
 		ans.push(chunk)
 		i+=size
 	}
-	return ans
+	return ans.toString()
 }
 
 // Do not change the code below
